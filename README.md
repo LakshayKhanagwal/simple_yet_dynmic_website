@@ -40,7 +40,13 @@ This project provides a basic dynmic website template with a clean and modern de
 ## Output
 
 Output should be look like this
-![Output]
+![Output](https://github.com/LakshayKhanagwal/output_of_all_repo/blob/cce311b17523b3f3e9d33d0a1281262ace6e86ea/simple_yet_dynmic_website/output.jpg)
+![Output](
+https://github.com/LakshayKhanagwal/output_of_all_repo/blob/cce311b17523b3f3e9d33d0a1281262ace6e86ea/simple_yet_dynmic_website/output_1.jpg)
+![Output](
+https://github.com/LakshayKhanagwal/output_of_all_repo/blob/cce311b17523b3f3e9d33d0a1281262ace6e86ea/simple_yet_dynmic_website/output_2.jpg)
+![Output](
+https://github.com/LakshayKhanagwal/output_of_all_repo/blob/cce311b17523b3f3e9d33d0a1281262ace6e86ea/simple_yet_dynmic_website/output_3.jpg)
 
 ## Features
 
