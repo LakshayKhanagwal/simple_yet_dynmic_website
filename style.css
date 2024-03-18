@@ -1,0 +1,239 @@
+.head_item {
+    text-decoration: none;
+    color: rgb(161, 161, 161);
+}
+
+.head_item:hover {
+    text-decoration: underline;
+    color: whitesmoke;
+    filter: drop-shadow(0px 0px 3px rgb(255, 255, 255));
+}
+
+
+#headder {
+    border-radius: 0px 0px 5px 5px;
+}
+
+#headder .nav li:nth-child(3) {
+    padding-left: 77vw;
+    width: 2%;
+}
+
+#bg_image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/backgroung.png');
+    /* Background image URL */
+    background-size: cover;
+    filter: brightness(0.35);
+    z-index: -1;
+
+}
+
+#lg_sp_pannel {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+
+}
+
+#lg_pannel {
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 100%;
+    width: 60vw;
+    backdrop-filter: blur(5px);
+}
+
+#pannel_head {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-bottom: 2px solid white;
+}
+
+.buttons {
+    text-decoration: none;
+    color: rgb(202, 201, 201);
+
+}
+
+.buttons:hover {
+    color: white;
+    filter: drop-shadow(0px 0px 3px rgb(255, 255, 255));
+}
+
+#mainpannel {
+    padding-top: 6vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    color: whitesmoke;
+    margin: 1vh;
+}
+
+input {
+    width: 100%;
+    height: 7vh;
+    border: none;
+    border-radius: 5px;
+    padding-left: 3%;
+    background-color: rgba(255, 255, 255, 0.062);
+    margin-bottom: 1vh;
+    color: whitesmoke;
+}
+
+#pass_eye {
+    width: 20px;
+    filter: invert(1);
+    position: relative;
+    left: 92%;
+    top: -7.7vh;
+}
+
+#c_pass_label {
+    margin-left: -1.5vw;
+}
+
+#login_btn,
+#Signup_btn,
+#c_submit {
+    margin-top: 3vh;
+    margin-left: 25%;
+    font-size: larger;
+    font-weight: 500;
+    border: none;
+    background-color: rgba(139, 139, 139, 0.171);
+    color: whitesmoke;
+    height: 7vh;
+    width: 12vw;
+}
+
+#login_btn:hover,
+#Signup_btn:hover,
+#c_submit:hover {
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+    scale: 1.1;
+    background-color: rgba(139, 139, 139, 0.603);
+}
+
+#mainpannel_contact {
+    padding-top: 2vh;
+    display: flex;
+    width: 100%;
+    height: 77vh;
+    justify-content: space-around;
+    color: antiquewhite;
+    margin-right: -3vw;
+}
+
+#contact_info{
+    align-self: flex-start;
+}
+
+#complain_box {
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 100%;
+    width: 32vw;
+    backdrop-filter: blur(5px);
+    padding-top: 1%;
+}
+
+#c_box_heading {
+    border-bottom: 2px solid white;
+    height: 15%;
+    text-align: center;
+}
+
+#c_box_input {
+    display: flex;
+    justify-content: center;
+
+}
+
+#c_box_input_pannel {
+    width: 70%;
+}
+
+#Complain_area {
+    background-color: rgba(255, 255, 255, 0.062);
+    border-radius: 5px;
+    color: white;
+}
+
+#c_submit {
+    margin-left: 23%;
+}
+
+#contact_info_pannel{
+    margin-top: 2vw;
+}
+
+#contact_info_heading{
+    text-decoration: underline;
+}
+
+#contact_info{
+    margin-top: 4vh;
+    /* border: 2px solid white; */
+    height: 60vh;
+    font-size: x-large;
+    width: 20vw;
+    margin-right: -7vw;
+    padding-left: 20%;
+}
+
+#linkedin_link{
+    text-decoration: underline;
+    color: rgb(202, 201, 201);
+}
+#linkedin_link:hover{
+    color: rgb(37, 120, 245);
+}
+
+.contact_links{
+    margin-left: 2vw;
+    color: rgb(202, 201, 201);
+}
+
+#footer {
+    background-color: rgba(19, 19, 19, 0.678);
+    height: 6vh;
+    position: relative;
+    top: 87.7vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(85, 85, 85, 0.459);
+    z-index: 1;
+}
+
+/* bootstrab modify */
+
+.navbar {
+    justify-content: flex-start;
+    padding-left: 3%;
+    gap: 20px;
+}
+
+/* runtime  class */
+
+.head_runtime {
+    text-decoration: underline;
+    color: whitesmoke;
+    filter: drop-shadow(0px 0px 3px rgb(255, 255, 255));
+}
