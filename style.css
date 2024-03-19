@@ -33,6 +33,76 @@
 
 }
 
+#output_pannel {
+    margin-top: 4vh;
+}
+
+#home_pannel {
+    height: 80vh;
+    border: 2px solid rgba(204, 203, 203, 0.637);
+    border-radius: 8px;
+}
+
+#home_contant_pannel {
+    height: 100%;
+    backdrop-filter: blur(5px);
+    border-radius: 8px;
+}
+
+#home_hud_pannel {
+    height: 50vh;
+    width: 99.8%;
+    margin-top: 35vh;
+    z-index: 1;
+    position: absolute;
+    top: 11vh;
+}
+
+.home_nav_button_pannel {
+    height: 17%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home_nav_button {
+    height: 100%;
+    width: 4%;
+    border-radius: 50%;
+    border: 2px solid white;
+    /* background-color: rgba(255, 255, 255, 0); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home_nav_button:hover{
+    background-color: rgba(255, 255, 255, 0.349);
+}
+
+.icon {
+    filter: invert(1);
+}
+
+#page_dots_pannel {
+    height: 4%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 30vh;
+}
+
+.page_dots {
+    border: 2px solid white;
+    height: 100%;
+    width: 1%;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.page_dots:hover {
+    background-color: burlywood;
+}
+
 #lg_sp_pannel {
     width: 100vw;
     height: 60vh;
@@ -40,7 +110,6 @@
     align-items: center;
     justify-content: center;
     margin-top: 2vh;
-
 }
 
 #lg_pannel {
@@ -63,7 +132,6 @@
 .buttons {
     text-decoration: none;
     color: rgb(202, 201, 201);
-
 }
 
 .buttons:hover {
@@ -139,7 +207,7 @@ input {
     margin-right: -3vw;
 }
 
-#contact_info{
+#contact_info {
     align-self: flex-start;
 }
 
@@ -161,7 +229,6 @@ input {
 #c_box_input {
     display: flex;
     justify-content: center;
-
 }
 
 #c_box_input_pannel {
@@ -178,15 +245,15 @@ input {
     margin-left: 23%;
 }
 
-#contact_info_pannel{
+#contact_info_pannel {
     margin-top: 2vw;
 }
 
-#contact_info_heading{
+#contact_info_heading {
     text-decoration: underline;
 }
 
-#contact_info{
+#contact_info {
     margin-top: 4vh;
     /* border: 2px solid white; */
     height: 60vh;
@@ -196,15 +263,16 @@ input {
     padding-left: 20%;
 }
 
-#linkedin_link{
+#linkedin_link {
     text-decoration: underline;
     color: rgb(202, 201, 201);
 }
-#linkedin_link:hover{
+
+#linkedin_link:hover {
     color: rgb(37, 120, 245);
 }
 
-.contact_links{
+.contact_links {
     margin-left: 2vw;
     color: rgb(202, 201, 201);
 }
@@ -213,7 +281,7 @@ input {
     background-color: rgba(19, 19, 19, 0.678);
     height: 6vh;
     position: relative;
-    top: 87.7vh;
+    top: 3.7vh;
     text-align: center;
     display: flex;
     justify-content: center;

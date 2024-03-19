@@ -76,6 +76,8 @@ function login_pannel() {
     document.getElementById("pass_eye").style.top = "-11.4vh"
     document.getElementById("signup").style.filter = "drop-shadow(0px 0px 0px)"
     document.getElementById("signup").style.color = "rgb(161, 161, 161)"
+    document.getElementById("footer").style.top="21.7vh"
+    document.getElementById("title").innerHTML="LogIn"
 }
 
 function signup_pannel() {
@@ -154,7 +156,8 @@ function signup_pannel() {
     document.getElementById("pass_eye").style.top = "-7.7vh"
     document.getElementById("login").style.filter = "drop-shadow(0px 0px 0px)"
     document.getElementById("login").style.color = "rgb(161, 161, 161)"
-
+    document.getElementById("footer").style.top="0.7vh"
+    document.getElementById("title").innerHTML="SignUp"
 
 }
 
@@ -209,7 +212,7 @@ function login_page() {
     mainpannel.setAttribute("id", "mainpannel")
     lg_pannel.append(mainpannel)
 
-    document.getElementById("bdy").append(lg_sp_pannel)
+    document.getElementById("output_pannel").append(lg_sp_pannel)
 
     //twiking some css
 
@@ -368,11 +371,13 @@ function contact_page() {
     submit_button.innerHTML="Submit"
     c_box_input_pannel.append(submit_button)
 
-    document.getElementById("bdy").append(mainpannel_contact)
+    document.getElementById("output_pannel").append(mainpannel_contact)
 
     //twiking some css
 
     document.getElementById("login_head").setAttribute("class", "head_item")
     document.getElementById("Home_head").setAttribute("class", "head_item")
     document.getElementById("Contact_head").setAttribute("class", "head_runtime")
+    document.getElementById("footer").style.top="4.7vh"
+    document.getElementById("title").innerHTML="Contact"
 }
