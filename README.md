@@ -94,4 +94,7 @@ Feel free to adjust the content or add more details if needed!
 ## Upcomming
 
 Home page is just on edge. It must be uploaded till tomorrow noon.
+
+- sneak peek
+  ![output](https://github.com/LakshayKhanagwal/output_of_all_repo/blob/f9b4614cac4d3484a484cb9bd1ee5d2dab72d576/simple_yet_dynmic_website/output_new_4.jpg)
 ###
