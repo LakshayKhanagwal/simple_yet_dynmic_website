@@ -40,13 +40,15 @@ This project provides a basic dynmic website template with a clean and modern de
 ## Output
 
 Output should be look like this
-![Output](https://github.com/LakshayKhanagwal/output_of_all_repo/blob/cce311b17523b3f3e9d33d0a1281262ace6e86ea/simple_yet_dynmic_website/output.jpg)
+![Output](https://github.com/LakshayKhanagwal/output_of_all_repo/blob/52cad4cf93a256527a8fc2e83b0e4d3ff1b23ddf/simple_yet_dynmic_website/output.jpg)
 ![Output](
-https://github.com/LakshayKhanagwal/output_of_all_repo/blob/cce311b17523b3f3e9d33d0a1281262ace6e86ea/simple_yet_dynmic_website/output_1.jpg)
+https://github.com/LakshayKhanagwal/output_of_all_repo/blob/52cad4cf93a256527a8fc2e83b0e4d3ff1b23ddf/simple_yet_dynmic_website/output_1.jpg)
 ![Output](
-https://github.com/LakshayKhanagwal/output_of_all_repo/blob/cce311b17523b3f3e9d33d0a1281262ace6e86ea/simple_yet_dynmic_website/output_2.jpg)
+https://github.com/LakshayKhanagwal/output_of_all_repo/blob/52cad4cf93a256527a8fc2e83b0e4d3ff1b23ddf/simple_yet_dynmic_website/output_2.jpg)
 ![Output](
-https://github.com/LakshayKhanagwal/output_of_all_repo/blob/cce311b17523b3f3e9d33d0a1281262ace6e86ea/simple_yet_dynmic_website/output_3.jpg)
+https://github.com/LakshayKhanagwal/output_of_all_repo/blob/52cad4cf93a256527a8fc2e83b0e4d3ff1b23ddf/simple_yet_dynmic_website/output_3.jpg)
+![Output]()
+- It's Just the Beginning With Animation.
 
 ## Features
 
