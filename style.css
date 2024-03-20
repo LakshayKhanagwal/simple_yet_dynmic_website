@@ -1,3 +1,7 @@
+#bdy {
+    overflow: hidden;
+}
+
 .head_item {
     text-decoration: none;
     color: rgb(161, 161, 161);
@@ -47,6 +51,62 @@
     height: 100%;
     backdrop-filter: blur(5px);
     border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#home_contant_image {
+    /* border: 2px solid white; */
+    border-radius: 5%;
+    width: 15%;
+    height: 50%;
+    position: relative;
+    left: 2vw;
+    display: flex;
+    align-items: end;
+}
+
+#home_image {
+    border: 2px solid white;
+    border-radius: 100%;
+    height: 30%;
+    width: 100%;
+}
+
+#image_home_home {
+    width: 172%;
+    height: 339%;
+    position: relative;
+    bottom: 27vh;
+    rotate: -6deg;
+    right: 4.5vw;
+    border-radius: 100%;
+    animation: image 1s;
+    animation-timing-function: ease;
+}
+
+#home_contant_text {
+    /* border: 2px solid white; */
+    width: 60%;
+    height: 70%;
+    padding: 3vh;
+    position: relative;
+    left: 0vw;
+    animation: artical 1s;
+    animation-timing-function: linear;
+
+}
+
+#artical_heading {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+#artical_text {
+    color: rgba(245, 245, 245, 0.548);
+    margin-top: 4vh;
+    text-align: justify;
 }
 
 #home_hud_pannel {
@@ -68,14 +128,16 @@
     height: 100%;
     width: 4%;
     border-radius: 50%;
-    border: 2px solid white;
+    border: 2px solid rgb(146, 146, 146);
     /* background-color: rgba(255, 255, 255, 0); */
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.home_nav_button:hover{
+
+.home_nav_button:hover {
     background-color: rgba(255, 255, 255, 0.349);
+    border: 2px solid white;
 }
 
 .icon {
@@ -101,6 +163,12 @@
 
 .page_dots:hover {
     background-color: burlywood;
+}
+
+#page_dot_1 {
+    background-color: burlywood;
+    animation: page_dot 10ms;
+    animation-timing-function: linear;
 }
 
 #lg_sp_pannel {
@@ -288,6 +356,45 @@ input {
     align-items: center;
     color: rgba(85, 85, 85, 0.459);
     z-index: 1;
+}
+
+/* animations */
+
+@keyframes image {
+
+    0% {
+        right: 3.56vw;
+        transform-origin: bottom;
+        transform: scaleY(0);
+    }
+
+    100% {
+        right: 3.56vw;
+        transform-origin: bottom;
+        transform: scaley(1);
+}
+}
+
+@keyframes artical {
+    0% {
+        left: 60vw;
+        opacity: 0%;
+    }
+
+    100% {
+        left: 0vw;
+        opacity: 100%;
+    }
+}
+
+@keyframes page_dot {
+    0% {
+        background-color: transparent;
+    }
+
+    100% {
+        background-color: burlywood;
+    }
 }
 
 /* bootstrab modify */

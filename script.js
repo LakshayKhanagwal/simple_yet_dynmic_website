@@ -168,7 +168,9 @@ function login_page() {
     }
     if (document.getElementById("mainpannel_contact") != null) {
         document.getElementById("mainpannel_contact").remove()
-
+    }
+    if (document.getElementById("home_pannel")!=null) {
+        document.getElementById("home_pannel").remove();
     }
 
     var lg_sp_pannel = document.createElement("div")
@@ -219,6 +221,7 @@ function login_page() {
     document.getElementById("login_head").setAttribute("class", "head_runtime")
     document.getElementById("Home_head").setAttribute("class", "head_item")
     document.getElementById("Contact_head").setAttribute("class", "head_item")
+    document.getElementById("output_pannel").style.marginTop="6vh"
 
     login_pannel()
 }
@@ -231,6 +234,10 @@ function contact_page() {
 
     if (document.getElementById("lg_sp_pannel")!=null) {
         document.getElementById("lg_sp_pannel").remove()
+    }
+
+    if (document.getElementById("home_pannel")!=null) {
+        document.getElementById("home_pannel").remove();
     }
 
     var mainpannel_contact = document.createElement("div")
@@ -380,4 +387,5 @@ function contact_page() {
     document.getElementById("Contact_head").setAttribute("class", "head_runtime")
     document.getElementById("footer").style.top="4.7vh"
     document.getElementById("title").innerHTML="Contact"
+    document.getElementById("output_pannel").style.marginTop="6vh"
 }
