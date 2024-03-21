@@ -96,5 +96,6 @@ Feel free to adjust the content or add more details if needed!
 ## Upcomming
 
 ~~Home page is just on edge. It must be uploaded till tomorrow noon.~~         Home Page Is uploaded(Done).
+- More articals are added and a little bit of animation also used for make it looks good.
 - New things with animations and more artical pages on home page is comming very soon. 
 ###
