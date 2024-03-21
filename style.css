@@ -34,7 +34,6 @@
     background-size: cover;
     filter: brightness(0.35);
     z-index: -1;
-
 }
 
 #output_pannel {
@@ -58,32 +57,48 @@
 
 #home_contant_image {
     /* border: 2px solid white; */
-    border-radius: 5%;
     width: 15%;
     height: 50%;
     position: relative;
     left: 2vw;
+    animation: image 1s linear, image 1s linear reverse 2s, image 1s linear 3s;
+}
+
+#home_image_one {
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid white; */
+    background-image: url('images/test.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     align-items: end;
+    justify-content: center;
+    clip-path: ellipse(140% 94.8% at 50% 4.9%);
 }
 
-#home_image {
-    border: 2px solid white;
-    border-radius: 100%;
-    height: 30%;
+#home_image_circle_front {
+    height: 25%;
+    border: 2px solid rgb(255, 255, 255);
     width: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    border-top-color: transparent;
+    border-left-color: transparent;
 }
 
-#image_home_home {
-    width: 172%;
-    height: 339%;
-    position: relative;
-    bottom: 27vh;
-    rotate: -6deg;
-    right: 4.5vw;
-    border-radius: 100%;
-    animation: image 1s;
-    animation-timing-function: ease;
+#home_image_circle_back {
+    height: 25%;
+    width: 100%;
+    border-top: 3px solid white;
+    border-left: 4px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 75%;
+    z-index: -1;
 }
 
 #home_contant_text {
@@ -93,9 +108,7 @@
     padding: 3vh;
     position: relative;
     left: 0vw;
-    animation: artical 1s;
-    animation-timing-function: linear;
-
+    animation: artical 1s linear;
 }
 
 #artical_heading {
@@ -372,7 +385,7 @@ input {
         right: 3.56vw;
         transform-origin: bottom;
         transform: scaley(1);
-}
+    }
 }
 
 @keyframes artical {

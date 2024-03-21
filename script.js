@@ -76,8 +76,8 @@ function login_pannel() {
     document.getElementById("pass_eye").style.top = "-11.4vh"
     document.getElementById("signup").style.filter = "drop-shadow(0px 0px 0px)"
     document.getElementById("signup").style.color = "rgb(161, 161, 161)"
-    document.getElementById("footer").style.top="21.7vh"
-    document.getElementById("title").innerHTML="LogIn"
+    document.getElementById("footer").style.top = "21.7vh"
+    document.getElementById("title").innerHTML = "LogIn"
 }
 
 function signup_pannel() {
@@ -156,8 +156,8 @@ function signup_pannel() {
     document.getElementById("pass_eye").style.top = "-7.7vh"
     document.getElementById("login").style.filter = "drop-shadow(0px 0px 0px)"
     document.getElementById("login").style.color = "rgb(161, 161, 161)"
-    document.getElementById("footer").style.top="0.7vh"
-    document.getElementById("title").innerHTML="SignUp"
+    document.getElementById("footer").style.top = "0.7vh"
+    document.getElementById("title").innerHTML = "SignUp"
 
 }
 
@@ -169,7 +169,7 @@ function login_page() {
     if (document.getElementById("mainpannel_contact") != null) {
         document.getElementById("mainpannel_contact").remove()
     }
-    if (document.getElementById("home_pannel")!=null) {
+    if (document.getElementById("home_pannel") != null) {
         document.getElementById("home_pannel").remove();
     }
 
@@ -221,22 +221,22 @@ function login_page() {
     document.getElementById("login_head").setAttribute("class", "head_runtime")
     document.getElementById("Home_head").setAttribute("class", "head_item")
     document.getElementById("Contact_head").setAttribute("class", "head_item")
-    document.getElementById("output_pannel").style.marginTop="6vh"
+    document.getElementById("output_pannel").style.marginTop = "6vh"
 
     login_pannel()
 }
 
 function contact_page() {
 
-    if (document.getElementById("mainpannel_contact")!=null) {
+    if (document.getElementById("mainpannel_contact") != null) {
         return
     }
 
-    if (document.getElementById("lg_sp_pannel")!=null) {
+    if (document.getElementById("lg_sp_pannel") != null) {
         document.getElementById("lg_sp_pannel").remove()
     }
 
-    if (document.getElementById("home_pannel")!=null) {
+    if (document.getElementById("home_pannel") != null) {
         document.getElementById("home_pannel").remove();
     }
 
@@ -366,16 +366,16 @@ function contact_page() {
     label_complain.innerHTML = "Complain"
     c_box_input_pannel.append(label_complain)
 
-    var Complain_area=document.createElement("textarea")
-    Complain_area.name="Complain_area"
-    Complain_area.cols="38"
-    Complain_area.rows="3"
-    Complain_area.setAttribute("id","Complain_area")
+    var Complain_area = document.createElement("textarea")
+    Complain_area.name = "Complain_area"
+    Complain_area.cols = "38"
+    Complain_area.rows = "3"
+    Complain_area.setAttribute("id", "Complain_area")
     c_box_input_pannel.append(Complain_area)
 
     var submit_button = document.createElement("button")
-    submit_button.setAttribute("id","c_submit")
-    submit_button.innerHTML="Submit"
+    submit_button.setAttribute("id", "c_submit")
+    submit_button.innerHTML = "Submit"
     c_box_input_pannel.append(submit_button)
 
     document.getElementById("output_pannel").append(mainpannel_contact)
@@ -385,7 +385,62 @@ function contact_page() {
     document.getElementById("login_head").setAttribute("class", "head_item")
     document.getElementById("Home_head").setAttribute("class", "head_item")
     document.getElementById("Contact_head").setAttribute("class", "head_runtime")
-    document.getElementById("footer").style.top="4.7vh"
-    document.getElementById("title").innerHTML="Contact"
-    document.getElementById("output_pannel").style.marginTop="6vh"
+    document.getElementById("footer").style.top = "4.7vh"
+    document.getElementById("title").innerHTML = "Contact"
+    document.getElementById("output_pannel").style.marginTop = "6vh"
+}
+
+var page_index = 1;
+
+function right_artical() {
+
+    if (page_index == 1) {
+        document.getElementById("home_contant_text").style.animation = "artical 1s linear reverse, artical 1s linear"
+
+        setTimeout(() => {
+            document.getElementById("artical_heading").innerHTML = "Artical Two"
+            document.getElementById("page_dot_1").style.backgroundColor = "transparent"
+            document.getElementById("page_dot_2").style.backgroundColor = "burlywood"
+            document.getElementById("page_dot_3").style.backgroundColor = "transparent"
+            document.getElementById("page_dot_4").style.backgroundColor = "transparent"
+            page_index = 2;
+        }, 100);
+        setTimeout(() => {
+            document.getElementById("home_contant_text").style.animation = "none"
+        }, 1000);
+        return
+    }
+
+    if (page_index == 2) {
+        document.getElementById("home_contant_text").style.animation = "artical 1s linear reverse, artical 1s linear"
+
+        setTimeout(() => {
+            document.getElementById("artical_heading").innerHTML = "Artical Three"
+            document.getElementById("page_dot_1").style.backgroundColor = "transparent"
+            document.getElementById("page_dot_2").style.backgroundColor = "transparent"
+            document.getElementById("page_dot_3").style.backgroundColor = "burlywood"
+            document.getElementById("page_dot_4").style.backgroundColor = "transparent"
+            page_index = 3;
+        }, 100);
+        setTimeout(() => {
+            document.getElementById("home_contant_text").style.animation = "none"
+        }, 1000);
+        return
+    }
+    if (page_index == 3) {
+        document.getElementById("home_contant_text").style.animation = "artical 1s linear reverse, artical 1s linear"
+
+        setTimeout(() => {
+            document.getElementById("artical_heading").innerHTML = "Artical four"
+            document.getElementById("page_dot_1").style.backgroundColor = "transparent"
+            document.getElementById("page_dot_2").style.backgroundColor = "transparent"
+            document.getElementById("page_dot_3").style.backgroundColor = "transparent"
+            document.getElementById("page_dot_4").style.backgroundColor = "burlywood"
+            page_index = 4;
+        }, 100);
+        setTimeout(() => {
+            document.getElementById("home_contant_text").style.animation = "none"
+        }, 1000);
+    }
+    page_index=0;
 }

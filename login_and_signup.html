@@ -16,19 +16,30 @@
     <div id="headder" class="bg-dark-subtle">
         <ul class="nav navbar container-fluid">
             <li><a class="head_item" id="Home_head" href="">Home</a></li>
-            <li><a class="head_item" id="Contact_head" onclick="contact_page()">Contact</a></li>
-            <li><a class="head_item" id="login_head" onclick="login_page()">Login/SignUp</a></li>
+            <li><a class="head_item" id="Contact_head" href="#output_pannel" onclick="contact_page()">Contact</a></li>
+            <li><a class="head_item" id="login_head" href="#output_pannel" onclick="login_page()">Login/SignUp</a></li>
         </ul>
     </div>
     <div id="output_pannel">
         <div id="home_pannel">
             <div id="home_contant_pannel">
                 <div id="home_contant_image">
-                    <div id="home_image"><img id="image_home_home" src="images/test.png" alt=""></div>
+                    <div id="home_image_one">
+                        <div id="home_image_circle_front"></div>
+                    </div>
+                    <div id="home_image_circle_back"></div>
                 </div>
                 <div id="home_contant_text">
                     <h1 id="artical_heading">Artical One</h1>
-                    <div class="container" id="artical_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora hic dolor quibusdam illum quisquam. In dicta quos reiciendis velit sint dolorum enim neque. Impedit mollitia, soluta saepe totam optio voluptates, aspernatur qui sunt, officia praesentium iste aliquam. Vitae quod unde optio, tempore ex, quo quia quas consectetur illum debitis mollitia consequuntur iure molestiae quidem velit sunt quibusdam magni voluptatem? Id at commodi accusamus debitis suscipit eaque? Minus mollitia inventore nam odit commodi quo temporibus esse tenetur. Eligendi, similique esse. Ad maxime necessitatibus, iure est deserunt voluptates itaque placeat neque, numquam aperiam quod, repellat sit. Nobis saepe dolore eius placeat minus.</div>
+                    <div class="container" id="artical_text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Tempora hic dolor quibusdam illum quisquam. In dicta quos reiciendis velit sint dolorum enim
+                        neque. Impedit mollitia, soluta saepe totam optio voluptates, aspernatur qui sunt, officia
+                        praesentium iste aliquam. Vitae quod unde optio, tempore ex, quo quia quas consectetur illum
+                        debitis mollitia consequuntur iure molestiae quidem velit sunt quibusdam magni voluptatem? Id at
+                        commodi accusamus debitis suscipit eaque? Minus mollitia inventore nam odit commodi quo
+                        temporibus esse tenetur. Eligendi, similique esse. Ad maxime necessitatibus, iure est deserunt
+                        voluptates itaque placeat neque, numquam aperiam quod, repellat sit. Nobis saepe dolore eius
+                        placeat minus.</div>
                 </div>
             </div>
             <div id="home_hud_pannel">
@@ -36,7 +47,7 @@
                     <div id="home_left_button" class="home_nav_button">
                         <span class="glyphicon glyphicon-menu-left icon"></span>
                     </div>
-                    <div id="home_Right_button" class="home_nav_button">
+                    <div id="home_Right_button" onclick="right_artical()" class="home_nav_button">
                         <span class="glyphicon glyphicon-menu-right icon"></span>
                     </div>
                 </div>
