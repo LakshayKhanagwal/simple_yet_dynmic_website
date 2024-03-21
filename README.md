@@ -40,13 +40,15 @@ This project provides a basic dynmic website template with a clean and modern de
 ## Output
 
 Output should be look like this
-![Output](https://github.com/LakshayKhanagwal/output_of_all_repo/blob/cce311b17523b3f3e9d33d0a1281262ace6e86ea/simple_yet_dynmic_website/output.jpg)
+![Output](https://github.com/LakshayKhanagwal/output_of_all_repo/blob/52cad4cf93a256527a8fc2e83b0e4d3ff1b23ddf/simple_yet_dynmic_website/output.jpg)
 ![Output](
-https://github.com/LakshayKhanagwal/output_of_all_repo/blob/cce311b17523b3f3e9d33d0a1281262ace6e86ea/simple_yet_dynmic_website/output_1.jpg)
+https://github.com/LakshayKhanagwal/output_of_all_repo/blob/52cad4cf93a256527a8fc2e83b0e4d3ff1b23ddf/simple_yet_dynmic_website/output_1.jpg)
 ![Output](
-https://github.com/LakshayKhanagwal/output_of_all_repo/blob/cce311b17523b3f3e9d33d0a1281262ace6e86ea/simple_yet_dynmic_website/output_2.jpg)
+https://github.com/LakshayKhanagwal/output_of_all_repo/blob/52cad4cf93a256527a8fc2e83b0e4d3ff1b23ddf/simple_yet_dynmic_website/output_2.jpg)
 ![Output](
-https://github.com/LakshayKhanagwal/output_of_all_repo/blob/cce311b17523b3f3e9d33d0a1281262ace6e86ea/simple_yet_dynmic_website/output_3.jpg)
+https://github.com/LakshayKhanagwal/output_of_all_repo/blob/52cad4cf93a256527a8fc2e83b0e4d3ff1b23ddf/simple_yet_dynmic_website/output_3.jpg)
+![Output](https://github.com/LakshayKhanagwal/output_of_all_repo/blob/ade274ea36d931a8ae06bb82fd5770f452798301/simple_yet_dynmic_website/Recording2024-03-201147231-ezgif.com-video-to-gif-converter.gif)
+- It's Just the Beginning With Animation.
 
 ## Features
 
@@ -93,8 +95,6 @@ Feel free to adjust the content or add more details if needed!
 
 ## Upcomming
 
-Home page is just on edge. It must be uploaded till tomorrow noon.
-
-- sneak peek
-  ![output](https://github.com/LakshayKhanagwal/output_of_all_repo/blob/f9b4614cac4d3484a484cb9bd1ee5d2dab72d576/simple_yet_dynmic_website/output_new_4.jpg)
+~~Home page is just on edge. It must be uploaded till tomorrow noon.~~         Home Page Is uploaded(Done).
+- New things with animations and more artical pages on home page is comming very soon. 
 ###
