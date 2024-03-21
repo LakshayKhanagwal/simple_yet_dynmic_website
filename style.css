@@ -61,7 +61,7 @@
     height: 50%;
     position: relative;
     left: 2vw;
-    animation: image 1s linear, image 1s linear reverse 2s, image 1s linear 3s;
+    animation: image 1s linear;
 }
 
 #home_image_one {
