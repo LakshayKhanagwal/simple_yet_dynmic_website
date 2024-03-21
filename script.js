@@ -1,7 +1,7 @@
 var a = 1
 
 home_css()
-function home_css(){
+function home_css() {
     document.getElementById("Home_head").setAttribute("class", "head_runtime")
 }
 
@@ -454,6 +454,7 @@ function right_artical() {
             document.getElementById("home_contant_text").style.animation = "none"
             document.getElementById("home_contant_image").style.animation = "none"
         }, 1000);
+        return
     }
 
     if (page_index == 4) {
@@ -556,4 +557,79 @@ function left_artical() {
         }, 1000);
     }
 
+}
+
+function page1() {
+    document.getElementById("home_contant_text").style.animation = "artical 1s linear reverse, artical 1s linear"
+    document.getElementById("home_contant_image").style.animation = " image 1s linear reverse, image 1s linear"
+    document.getElementById("home_image_one").style.backgroundImage = "url('images/test.png')"
+
+    setTimeout(() => {
+        document.getElementById("artical_heading").innerHTML = "Artical One"
+        document.getElementById("page_dot_1").style.backgroundColor = "burlywood"
+        document.getElementById("page_dot_2").style.backgroundColor = "transparent"
+        document.getElementById("page_dot_3").style.backgroundColor = "transparent"
+        document.getElementById("page_dot_4").style.backgroundColor = "transparent"
+        page_index = 1;
+    }, 100);
+    setTimeout(() => {
+        document.getElementById("home_contant_text").style.animation = "none"
+        document.getElementById("home_contant_image").style.animation = "none"
+    }, 1000);
+}
+
+function page2() {
+    document.getElementById("home_contant_text").style.animation = "artical 1s linear reverse, artical 1s linear"
+    document.getElementById("home_contant_image").style.animation = " image 1s linear reverse, image 1s linear"
+    document.getElementById("home_image_one").style.backgroundImage = "url('images/test1.png')"
+    setTimeout(() => {
+        document.getElementById("artical_heading").innerHTML = "Artical Two"
+        document.getElementById("page_dot_1").style.backgroundColor = "transparent"
+        document.getElementById("page_dot_2").style.backgroundColor = "burlywood"
+        document.getElementById("page_dot_3").style.backgroundColor = "transparent"
+        document.getElementById("page_dot_4").style.backgroundColor = "transparent"
+        page_index = 2;
+    }, 100);
+    setTimeout(() => {
+        document.getElementById("home_contant_text").style.animation = "none"
+        document.getElementById("home_contant_image").style.animation = "none"
+    }, 1000);
+}
+
+function page3() {
+    document.getElementById("home_contant_text").style.animation = "artical 1s linear reverse, artical 1s linear"
+    document.getElementById("home_contant_image").style.animation = " image 1s linear reverse, image 1s linear"
+    document.getElementById("home_image_one").style.backgroundImage = "url('images/test2.png')"
+
+    setTimeout(() => {
+        document.getElementById("artical_heading").innerHTML = "Artical Three"
+        document.getElementById("page_dot_1").style.backgroundColor = "transparent"
+        document.getElementById("page_dot_2").style.backgroundColor = "transparent"
+        document.getElementById("page_dot_3").style.backgroundColor = "burlywood"
+        document.getElementById("page_dot_4").style.backgroundColor = "transparent"
+        page_index = 3;
+    }, 100);
+    setTimeout(() => {
+        document.getElementById("home_contant_text").style.animation = "none"
+        document.getElementById("home_contant_image").style.animation = "none"
+    }, 1000);
+}
+
+function page4() {
+    document.getElementById("home_contant_text").style.animation = "artical 1s linear reverse, artical 1s linear"
+    document.getElementById("home_contant_image").style.animation = " image 1s linear reverse, image 1s linear"
+    document.getElementById("home_image_one").style.backgroundImage = "url('images/test3.png')"
+
+    setTimeout(() => {
+        document.getElementById("artical_heading").innerHTML = "Artical four"
+        document.getElementById("page_dot_1").style.backgroundColor = "transparent"
+        document.getElementById("page_dot_2").style.backgroundColor = "transparent"
+        document.getElementById("page_dot_3").style.backgroundColor = "transparent"
+        document.getElementById("page_dot_4").style.backgroundColor = "burlywood"
+        page_index = 4;
+    }, 100);
+    setTimeout(() => {
+        document.getElementById("home_contant_text").style.animation = "none"
+        document.getElementById("home_contant_image").style.animation = "none"
+    }, 1000);
 }
