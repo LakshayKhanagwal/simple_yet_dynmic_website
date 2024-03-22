@@ -94,7 +94,7 @@ To use this template in your project, follow these steps:
 Feel free to adjust the content or add more details if needed!
 
 
-## Upcomming
+## Completed
 
 - ~~Home page is just on edge. It must be uploaded till tomorrow noon.~~         
 - Home Page Is uploaded(Done).
